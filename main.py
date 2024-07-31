@@ -1,5 +1,5 @@
 from classes import AddressBook, Record
-from serealisation import save_data, load_data
+from serialization import save_data, load_data
 
 def input_error(func):
     def inner(*args, **kwargs):
